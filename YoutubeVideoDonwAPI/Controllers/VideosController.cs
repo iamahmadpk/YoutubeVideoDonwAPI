@@ -88,8 +88,8 @@ public class VideosController : ControllerBase
         //return File(memoryStream, "application/octet-stream", "videos.zip");
         //-----------///
         // Amazon S3 credentials and configuration.
-        var accessKeyId = "AKIAWZGSM6NUROKLTU7D";
-        var secretAccessKey = "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";
+        var accessKeyId = "";
+        var secretAccessKey = "";
         var region = RegionEndpoint.USEast1;
         var bucketName = "ytvideodown";
         var s3Client = new AmazonS3Client(accessKeyId, secretAccessKey, region);
